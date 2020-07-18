@@ -1,0 +1,37 @@
+body {
+  background-color: blue;
+}
+
+.container {
+  width: 100%;
+}
+
+.container .glider {
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+.container .glider .h img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  padding: .7em;
+}
+
+.container .prev {
+  color: black;
+  right: -50px;
+  top: 20%;
+  float: left;
+}
+
+.container .next {
+  right: -40px;
+  top: 50%;
+  float: right;
+}
+
+#dots {
+  margin: 9%;
+}
+/*# sourceMappingURL=main.css.map */

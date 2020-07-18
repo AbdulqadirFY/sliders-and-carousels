@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/glider.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Carousel</title>
+</head>
+<body>
+    <div class="container">
+        <div class="glider">
+        <div class="h"> <img src="https://image.flaticon.com/icons/svg/3184/3184758.svg" alt=""></div>
+        <div class="h"><img src="https://image.flaticon.com/icons/svg/3121/3121372.svg" alt=""></div>
+        <div class="h"><img src="https://image.flaticon.com/icons/svg/3184/3184744.svg" alt=""></div>
+        <div class="h"><img src="https://www.flaticon.com/premium-icon/icons/svg/3220/3220733.svg" alt="">       </div>     
+        <div class="h"><img src="https://image.flaticon.com/icons/svg/2569/2569936.svg" alt=""></div>
+        <div class="h"><img src="https://image.flaticon.com/icons/svg/3184/3184744.svg" alt=""></div>
+        <div class="h"><img src="https://www.flaticon.com/premium-icon/icons/svg/3220/3220733.svg" alt=""></div>
+        <div class="h"><img src="https://image.flaticon.com/icons/svg/3184/3184758.svg" alt=""></div>
+        <div class="h"> <img src="https://image.flaticon.com/icons/svg/3184/3184758.svg" alt=""></div>
+        <div class="h"><img src="https://image.flaticon.com/icons/svg/3121/3121372.svg" alt=""></div>
+        <div class="h"><img src="https://image.flaticon.com/icons/svg/3184/3184744.svg" alt=""></div>
+        <div class="h"><img src="https://www.flaticon.com/premium-icon/icons/svg/3220/3220733.svg" alt="">       </div>     
+        <div class="h"><img src="https://image.flaticon.com/icons/svg/2569/2569936.svg" alt=""></div>
+        <div class="h"><img src="https://image.flaticon.com/icons/svg/3184/3184744.svg" alt=""></div>
+        <div class="h"><img src="https://www.flaticon.com/premium-icon/icons/svg/3220/3220733.svg" alt=""></div>
+        <div class="h"><img src="https://image.flaticon.com/icons/svg/3184/3184758.svg" alt=""></div>
+        </div>
+        
+        <button class="prev">                
+            <i class="fa fa-2x fa-arrow-circle-left"></i>            
+        </button>
+        <button class="next">            
+            <i class="fa fa-2x fa-arrow-circle-right"></i>            
+        </button>
+    </div>
+    
+    <div id="dots" class="dots"></div>
+
+    <script src="glider.min.js"></script>
+
+    <script>
+
+        new Glider(document.querySelector('.glider'), {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            dots: '.dots',
+            arrows: {
+                prev: '.prev',
+                next: '.next'
+            }
+        });
+
+    </script>
+</body>
+</html>
